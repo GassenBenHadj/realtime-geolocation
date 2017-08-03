@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="simplemapgeo.Receiver"
+             Title="Receiver">
+    <ContentPage.Content>
+        <StackLayout x:Name="stackLayout" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="20,20,20,20">
+            <Entry x:Name="EntryID" Placeholder="Put a Tracking ID" Keyboard="Numeric" />
+            <Button x:Name="BtnSubmit" Text="submit" Clicked="BtnSubmit_Clicked" />
+            <Label x:Name="latitudeLabel"  />
+            <Label x:Name="longitudeLabel"  />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
